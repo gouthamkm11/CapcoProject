@@ -1,0 +1,41 @@
+<mat-grid-list
+  cols=3
+  rowHeight=2:1
+>
+<mat-grid-tile
+  colspan= {{colspan1}}
+  rowspan= {{rowspan1}}
+  (mouseover)="fireEvent1()"
+>
+<img 
+src="https://vignette.wikia.nocookie.net/stargate/images/a/a4/Pizza.jpg/revision/latest/scale-to-width-down/640?cb=20150309155432"
+alt="Image"
+height="100%"
+width="100%"
+>
+</mat-grid-tile>
+<mat-grid-tile
+  colspan= {{colspan2}}
+  rowspan= {{rowspan2}}
+  (mouseover)="fireEvent2()"
+>
+<img 
+src="https://media.mnn.com/assets/images/2017/04/types-pasta.jpg.620x0_q80_crop-smart_upscale-true.jpg"
+alt="Image"
+height="100%"
+width="100%"
+>
+</mat-grid-tile>
+<mat-grid-tile
+  colspan= {{colspan3}}
+  rowspan= {{rowspan3}}
+  (mouseover)="fireEvent3()"
+>
+<img 
+src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cheeseburger.jpg"
+alt="Image"
+height="100%"
+width="100%"
+>
+</mat-grid-tile>
+</mat-grid-list>

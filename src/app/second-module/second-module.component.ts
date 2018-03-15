@@ -1,16 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-first-module',
-  templateUrl: './first-module.component.html',
-  styleUrls: ['./first-module.component.css']
+  selector: 'app-second-module',
+  templateUrl: './second-module.component.html',
+  styleUrls: ['./second-module.component.css']
 })
-export class FirstModuleComponent  {
-
-  colspan1:number = 2
-  rowspan1:number = 2
-  colspan2:number = 1
-  rowspan2:number = 1
+export class SecondModuleComponent {
+  colspan1:number = 1
+  rowspan1:number = 1
+  colspan2:number = 2
+  rowspan2:number = 2
   colspan3:number = 1
   rowspan3:number = 1
 
